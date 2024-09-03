@@ -22,7 +22,7 @@ function FindProxyForURL(url, host) {
         || shExpMatch(host, "taboola.com")
         || shExpMatch(host, "teads.tv")
         || shExpMatch(host, "value-press.com")
-        || shExpMatch(host, "yads.yjtag.yahoo.jp"))
+        || shExpMatch(host, "yads.yjtag.yahoo.co.jp"))
     {
         return "PROXY 127.0.0.1:18080";
     }
