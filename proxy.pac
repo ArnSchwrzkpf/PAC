@@ -10,6 +10,7 @@ function FindProxyForURL(url, host) {
         || shExpMatch(host, "casalemedia.com")
         || shExpMatch(host, "criteo.com")
         || shExpMatch(host, "doubleclick.net")
+        || shExpMatch(host, "*.doubleclick.net")
         || shExpMatch(host, "fout.jp")
         || shExpMatch(host, "im-apps.net")
         || shExpMatch(host, "kargo.com")
