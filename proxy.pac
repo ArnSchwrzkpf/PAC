@@ -27,7 +27,7 @@ function FindProxyForURL(url, host) {
 
     for (var i = 0; i < adHosts.length; i++) {
         if (dnsDomainIs(host, "." + adHosts[i]) || host === adHosts[i]) {
-            return "PROXY 127.0.0.1:18080";
+            return "PROXY 127.0.0.1:8080";
         }
     }
 
