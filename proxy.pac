@@ -15,6 +15,7 @@ function FindProxyForURL(url, host) {
         "kargo.com",
         "ladsp.com",
         "media.net",
+        "microad.jp",
         "openx.net",
         "pubmatic.com",
         "rubiconproject.com",
